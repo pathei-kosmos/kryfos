@@ -35,7 +35,7 @@ cd kryfos
 npm install
 ```
 
-Note that for obvious security reasons the environment variables are not provided. You will have to create a file `".env"` at the root of the project with this content: 
+Note that for obvious security reasons the environment variables are not provided. You will have to create a file named `".env"` at the root of the project with this content: 
 
 ```
 SECRET_KEY_SESSION = "your security key for sessions, a random sequence of 32 characters and numbers"
