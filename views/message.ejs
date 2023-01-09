@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./styles/minified/logo.min.css" />
+    <link rel="stylesheet" href="./styles/minified/main-cont.min.css" />
+    <link rel="stylesheet" href="./styles/minified/message.min.css" />
+    <script src="./scripts/minified/msgTimer.min.js" defer></script>
+    <%- include('./partials/metaHead.ejs') %>
+    <% if(typeof titre !== 'undefined'){ %>
+    <title>Kryfos | <%- titre %></title>
+    <% } else { %>
+    <title>Kryfos | 404</title>
+    <% } %>
+  </head>
+  <body>
+    <% if(typeof msg !== 'undefined'){ %>
+    <img src="./img/compressed/logo-transparent.png" id="logo" />
+    <div class="container">
+      <div class="message">
+        <h1><%- msg %></h1>
+      </div>
+      <div class="div-button">
+        <a href="<%- url %>">
+          <button class="submit" id="go" autofocus><%- btn %></button>
+        </a>
+      </div>
+    </div>
+    <% } else { %>
+    <script src="./scripts/minified/redirect.min.js"></script>
+    <% } %>
+  </body>
+</html>

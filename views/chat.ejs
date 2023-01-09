@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./styles/minified/chat.min.css" />
+    <script src="./scripts/minified/connectedUsers.min.js" defer></script>
+    <script src="./scripts/minified/wsClient.min.js" defer></script>
+    <script src="./scripts/minified/keyHandler.min.js" defer></script>
+    <%- include('./partials/metaHead.ejs') %>
+    <title>Kryfos | Chat</title>
+  </head>
+  <body>
+    <div class="top-nav">
+      <div class="div-logo">
+        <img src="./img/compressed/logo-transparent.png" id="logo" />
+      </div>
+      <div class="div-deconnexion">
+        <a href="/logout">
+          <input type="button" value="Déconnexion" id="nav-button" />
+        </a>
+      </div>
+    </div>
+    <form class="msg-entry">
+      <input type="text" id="msg-input" autofocus />
+      <input type="submit" hidden />
+    </form>
+    <div class="users-list">
+      <ul id="connectedUsers"></ul>
+    </div>
+    <div class="msg-area"></div>
+  </body>
+</html>

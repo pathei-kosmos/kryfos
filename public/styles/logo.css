@@ -1,0 +1,22 @@
+#logo {
+  display: none;
+  pointer-events: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-select: none;
+}
+
+@media (min-width: 700px) {
+  #logo {
+    height: 4rem;
+    display: block;
+  }
+}
+
+@media (min-width: 930px) {
+  #logo {
+    height: 6rem;
+  }
+}

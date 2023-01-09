@@ -1,0 +1,80 @@
+/* CSS DU FORMULAIRE */
+.form-title {
+  text-align: center;
+  pointer-events: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-select: none;
+}
+
+.form-main {
+  height: 100%;
+  padding: 0.4 1rem 0;
+  margin-bottom: 0.2rem;
+}
+
+@media (min-width: 319px) {
+  .form-main {
+    padding-bottom: 0;
+  }
+}
+
+@media (min-width: 436px) {
+  .form-main {
+    height: 100%;
+    padding: 0.4rem 4rem 0;
+  }
+}
+
+p {
+  margin-top: 0;
+}
+
+input {
+  width: 96%;
+  height: 2rem;
+  margin-bottom: 2rem;
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+.form-submit {
+  margin: 0 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.submit,
+.retour {
+  width: 8rem;
+  height: 3rem;
+  cursor: pointer;
+  margin: 0 0.2rem;
+}
+
+#go {
+  background-color: green;
+  border: 4px solid black;
+  color: white;
+  font-weight: bold;
+  box-shadow: 2px 2px 0 0 black;
+}
+
+#go:active {
+  box-shadow: 1px 1px 0 0 black;
+}
+
+#retour {
+  background-color: white;
+  border: 4px solid #000;
+  color: black;
+  font-weight: 700;
+  box-shadow: 2px 2px 0 0 #000;
+}
+
+#retour:active {
+  box-shadow: 1px 1px 0 0 #000;
+}

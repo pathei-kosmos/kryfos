@@ -1,0 +1,29 @@
+{
+  "name": "kryfos",
+  "version": "1.0.0",
+  "description": "encrypted chat",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "compression": "^1.7.4",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "express-validator": "^6.14.2",
+    "express-ws": "^5.0.2",
+    "helmet": "^5.1.0",
+    "hpp": "^0.2.3",
+    "html-entities": "^2.3.3",
+    "memorystore": "^1.6.7",
+    "mongoose": "^6.4.4",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.19"
+  }
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./styles/minified/logo.min.css" />
+    <link rel="stylesheet" href="./styles/minified/main-cont.min.css" />
+    <link rel="stylesheet" href="./styles/minified/index.min.css" />
+    <%- include('./partials/metaHead.ejs') %>
+    <title>Kryfos | Se connecter</title>
+  </head>
+  <body>
+    <img src="./img/compressed/logo-transparent.png" id="logo" />
+    <div class="container">
+      <form action="" method="post">
+        <div class="form-title">
+          <h1>Se connecter</h1>
+        </div>
+        <div class="form-main">
+          <label for="email">Email :</label>
+          <p>
+            <input
+              type="email"
+              name="email"
+              required
+              autocomplete="email"
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+              autofocus
+            />
+          </p>
+          <label for="pwd">Mot de passe :</label>
+          <p>
+            <input
+              type="password"
+              name="pwd"
+              required
+              autocomplete="current-password"
+            />
+          </p>
+        </div>
+        <div class="form-submit">
+          <a href="./message">
+            <input type="submit" value="Go !" class="submit" id="go" />
+          </a>
+          <a href="./inscription">
+            <input
+              type="button"
+              value="S'inscrire"
+              class="submit"
+              id="inscrire"
+            />
+          </a>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
