@@ -12,6 +12,10 @@ Kryfos uses [morgan](https://www.npmjs.com/package/morgan) for its logs, [compre
 
 The application hashes its passwords with [bcrypt](https://en.wikipedia.org/wiki/Bcrypt), protects itself against [HTTP Parameter Pollution attacks](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/07-Input_Validation_Testing/04-Testing_for_HTTP_Parameter_Pollution) with [hpp](https://www.npmjs.com/package/hpp), [XSS attacks](https://owasp.org/www-community/attacks/xss/) by never using [innerHTML](https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML), and [NoSQL injections](https://owasp.org/www-pdf-archive/GOD16-NOSQL.pdf) with the Mongoose `sanitizeFilter()` flag ([which I added to the Mongoose documentation during this project](https://github.com/Automattic/mongoose/pull/12112)). All user inputs are validated and sanitized with [express-validator](https://github.com/express-validator/express-validator) and Kryfos even supports [HTML entites](https://github.com/mdevils/html-entities). [Custom security rules](https://github.com/pathei-kosmos/kryfos/blob/master/app.js#L308) have been added on WebSocket exchanges to allow only connections from the chat.
 
+<p align="center">
+  <img src="https://github.com/pathei-kosmos/kryfos/blob/master/demo.gif?raw=true" alt="Demo gif" />
+</p>
+
 ![Demo gif](demo.gif)
 
 ## Requirements
