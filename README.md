@@ -1,8 +1,10 @@
 # Kryfos :lock:
 
 <p align="center">
-  <a href="https://bun.sh"><img src="https://raw.githubusercontent.com/pathei-kosmos/kryfos/master/public/img/lossless/logo-transparent.png" alt="Logo" height=170></a>
+  <a href="https://bun.sh"><img src="https://raw.githubusercontent.com/pathei-kosmos/kryfos/tree/master/public/img/lossless/logo-transparent.png" alt="Logo" height=170></a>
 </p>
+
+https://raw.githubusercontent.com/pathei-kosmos/kryfos/master/demo.gif
 
 Production ready[^1] chat made with [Node.js](https://nodejs.org/en/) ([Express](https://expressjs.com/)), [MongoDB](https://www.mongodb.com/) ([Mongoose](https://mongoosejs.com/)) and [WebSocket](https://developer.mozilla.org/en-US/docs/Glossary/WebSockets).
 
