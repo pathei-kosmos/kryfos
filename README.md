@@ -16,8 +16,6 @@ The application hashes its passwords with [bcrypt](https://en.wikipedia.org/wiki
   <img src="https://github.com/pathei-kosmos/kryfos/blob/master/demo.gif?raw=true" alt="Demo gif" />
 </p>
 
-![Demo gif](demo.gif)
-
 ## Requirements
 
 * Node 
