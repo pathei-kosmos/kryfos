@@ -18,6 +18,12 @@ The application hashes its passwords with [bcrypt](https://en.wikipedia.org/wiki
 
 All user inputs are validated and sanitized with [express-validator](https://github.com/express-validator/express-validator) and Kryfos even supports [HTML entites](https://github.com/mdevils/html-entities). [Custom security rules](https://github.com/pathei-kosmos/kryfos/blob/master/app.js#L308) have been added on WebSocket exchanges to allow only connections from the chat.
 
+
+
+<p align="center">
+  <a href="https://github.com/pathei-kosmos/kryfos"><img src="https://raw.githubusercontent.com/pathei-kosmos/kryfos/master/demo.gif" alt="Demo"></a>
+</p>
+
 ![Demo gif](demo.gif)
 
 ## Requirements
