@@ -1,7 +1,7 @@
 # Kryfos :lock:
 
 <p align="center">
-  <a href="https://github.com/pathei-kosmos/kryfos"><img src="https://raw.githubusercontent.com/pathei-kosmos/kryfos/master/logo-transparent.png" alt="Logo" height=170></a>
+  <img src="https://github.com/pathei-kosmos/kryfos/blob/master/logo-transparent.png?raw=true" alt="Logo" height="170" />
 </p>
 
 Production ready[^1] chat made with [Node.js](https://nodejs.org/en/) ([Express](https://expressjs.com/)), [MongoDB](https://www.mongodb.com/) ([Mongoose](https://mongoosejs.com/)) and [WebSocket](https://developer.mozilla.org/en-US/docs/Glossary/WebSockets).
