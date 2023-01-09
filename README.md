@@ -52,6 +52,6 @@ npm run start
 ## Areas for Improvement:
 
 - [ ] Reorganize in MVC structure
-- [ ] Create and use CRSF tokens
+- [ ] Create and use CSRF tokens
 
 [^1]: The chat has already been successfully deployed online on Heroku.
