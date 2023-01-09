@@ -53,5 +53,6 @@ npm run start
 
 - [ ] Reorganize in MVC structure
 - [ ] Create and use CSRF tokens
+- [ ] Add end-to-end encryption with Diffie-Hellman key exchange
 
 [^1]: The chat has already been successfully deployed online on Heroku.
