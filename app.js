@@ -15,7 +15,7 @@ const { body, validationResult } = require("express-validator");
 const { decode } = require("html-entities");
 
 // secures the websocket server
-const authorizedOrigin = `http://${process.env.DOMAIN}`;
+const authorizedOrigin = `http://${process.env.DOMAIN}:${process.env.PORT}`;
 
 // launch
 mongoose
