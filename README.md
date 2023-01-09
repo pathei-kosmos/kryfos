@@ -49,4 +49,9 @@ Launch the live server:
 npm run start
 ```
 
+## Areas for Improvement:
+
+* Organize in MVC structure
+* Create CRSF tokens
+
 [^1]: The chat has already been successfully deployed online on Heroku.
