@@ -1,7 +1,7 @@
 # Kryfos :lock:
 
 <p align="center">
-  <a href="https://bun.sh"><img src="https://raw.githubusercontent.com/pathei-kosmos/kryfos/logo-transparent.png" alt="Logo" height=170></a>
+  <a href="https://github.com/pathei-kosmos/kryfos"><img src="https://raw.githubusercontent.com/pathei-kosmos/kryfos/master/logo-transparent.png" alt="Logo" height=170></a>
 </p>
 
 https://raw.githubusercontent.com/pathei-kosmos/kryfos/master/demo.gif
